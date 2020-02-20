@@ -13,8 +13,8 @@ Design the **data model** for a _recipe book_ application, then use `Knex migrat
 
 The requirements for the system, as stated by the client are:
 
-- have a way to manage recipes.
-- have a way to manage ingredients.
+- have a way to manage recipes. `CRUD?`
+- have a way to manage ingredients. `CRUD?`
 - a **recipe** could have more than one **ingredient** and the same **ingredient** can be used in multiple recipes. Examples are _"cup of corn flour"_ or _"gram of butter"_.
 - when saving the ingredients for a **recipe** capture the quantity required for that **ingredient** as a floating number.
 - have a way to save step by step instructions for preparing a recipe.
