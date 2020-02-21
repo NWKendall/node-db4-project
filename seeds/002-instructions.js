@@ -7,9 +7,9 @@ exports.seed = function(knex) {
       // Inserts seed entries
       const stepSeed = [
         {id: 1, steps: 'test', recipe_id: 1 },
-        {id: 2, steps: 'test', recipe_id: 1 },
-        {id: 3, steps: 'test', recipe_id: 2 },
-        {id: 4, steps: 'test', recipe_id: 2 }
+        {id: 2, steps: 'test2', recipe_id: 1 },
+        {id: 3, steps: 'test3', recipe_id: 2 },
+        {id: 4, steps: 'test4', recipe_id: 2 }
       ]
       return knex('instructions').insert(stepSeed)
     });

@@ -15,21 +15,27 @@ exports.seed = function(knex) {
         {
           quantity: 5,
           measurement_type: 'cups', 
-          instruction_id: 2, 
+          instruction_id: 1, 
           ingredient_id: 2
         },
         {
           quantity: 1,
           measurement_type: 'single', 
           instruction_id: 2, 
-          ingredient_id: 1
+          ingredient_id: 3
         },
         {
           quantity: 5,
           measurement_type: 'cups', 
-          instruction_id: 1, 
-          ingredient_id: 2
-        }       
+          instruction_id: 2, 
+          ingredient_id: 4
+        } ,
+        {
+          quantity: 5,
+          measurement_type: 'cups', 
+          instruction_id: 3, 
+          ingredient_id: 4
+        }         
       ]
       return knex('instructions_ingredients').insert(stuff);
     })

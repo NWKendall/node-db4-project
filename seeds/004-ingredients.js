@@ -7,7 +7,11 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('ingredients').insert([
         {id: 1, name: 'apple'},
-        {id: 2, name: 'flour'}
+        {id: 2, name: 'flour'},
+        {id: 3, name: 'cheese'},
+        {id: 4, name: 'mushrooms'}
+
+
       ]);
     });
 };
